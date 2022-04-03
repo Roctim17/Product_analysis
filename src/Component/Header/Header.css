@@ -1,0 +1,8 @@
+.nav h1 {
+    display: inline-block;
+    margin: 15px;
+}
+
+.nav h1:hover {
+    border-bottom: 3px solid red;
+}
