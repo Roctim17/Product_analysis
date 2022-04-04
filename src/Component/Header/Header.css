@@ -5,4 +5,5 @@
 
 .nav h1:hover {
     border-bottom: 3px solid red;
+    font-size: 35px;
 }
