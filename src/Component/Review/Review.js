@@ -1,9 +1,22 @@
 import React from 'react';
+import useReview from '../../hooks/useReview';
+import SingleReviews from '../SingleReviews/SingleReviews';
+import './Review.css'
+
 
 const Review = () => {
+    const [reviews] = useReview();
     return (
         <div>
-            <h1>This is review page</h1>
+            <h1>Total Review :{reviews.length}</h1>
+            <div className="review-area">
+                {
+                    reviews.map(review => <SingleReviews
+                        key={review.id}
+                        review={review}
+                    ></SingleReviews>)
+                }
+            </div>
         </div>
     );
 };

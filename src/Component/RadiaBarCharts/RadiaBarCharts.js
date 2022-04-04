@@ -7,16 +7,16 @@ const RadialBarCharts = () => {
     return (
         <div>
             <RadialBarChart
-                width={730}
-                height={250}
+                width={650}
+                height={350}
                 innerRadius="10%"
                 outerRadius="80%"
                 data={data}
                 startAngle={180}
                 endAngle={0}
             >
-                <RadialBar minAngle={15} label={{ fill: '#666', position: 'insideStart' }} background clockWise={true} dataKey='sell' />
-                <Legend iconSize={10} width={120} height={140} layout='vertical' verticalAlign='middle' align="right" />
+                <RadialBar minAngle={15} label={{ fill: '#fff', position: 'insideStart' }} background clockWise={true} dataKey='sell' />
+                <Legend iconSize={10} width={50} height={200} layout='vertical' verticalAlign='middle' align="right" dataKey='investment' />
                 <Tooltip />
             </RadialBarChart>
         </div>

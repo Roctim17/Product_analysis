@@ -1,0 +1,17 @@
+.SingleReviews-img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.SingleReviews-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media only screen and (max-width:688px) {
+    .SingleReviews-container {
+        flex-direction: column;
+    }
+}

@@ -1,12 +1,11 @@
-.dashboard-container {
+.review-area {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px 5px;
-    padding: 50px;
 }
 
 @media only screen and (max-width:688px) {
-    .dashboard-container {
+    .review-area {
         grid-template-columns: repeat(1, 1fr);
     }
 }

@@ -1,7 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import useReview from '../../hooks/useReview';
+import SingleReviews from '../SingleReviews/SingleReviews';
 import './Home.css'
 
 const Home = () => {
+    const [reviews] = useReview();
+    const topThree = reviews.slice(0, 3);
     return (
         <div>
             <div className="home-container">
@@ -23,8 +28,16 @@ const Home = () => {
                 </div>
             </div>
             <div className="top-review-container">
-                <h1>Customer Reviews</h1>
-                <button>See All Reviews</button>
+                <h1>Customer Reviews ({reviews.length})</h1>
+                <div className="topThree-reviews">
+                    {
+                        topThree.map(review => <SingleReviews
+                            key={review.id}
+                            review={review}
+                        ></SingleReviews>)
+                    }
+                </div>
+                <button className='btn-review'><Link to="/review" >See All Reviews</Link></button>
             </div>
         </div>
     );
