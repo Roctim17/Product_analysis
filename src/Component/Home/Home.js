@@ -11,7 +11,14 @@ const Home = () => {
                 <div className="text-area">
                     <h1>Nike Cricket Bat</h1>
                     <h1>English Willow Master Edition</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In commodi autem quisquam at magnam, illum reiciendis placeat maiores ea hic? Quod delectus incidunt velit nihil.</p>
+                    <p>Nike has done it again with a ground-breaking cricket bat design.
+
+                        The Nike Drive cricket bat is made of genuine Grade 3 English Willow, which is air dried naturally.
+
+                        The short handled bat boasts enormously large edges to the blades, for an addictively satisfying sweet spot when it comes to ball contact.
+                        The cricket bat has a spectacularly light pick up and an enviable extended bow that makes it totally irresistible.
+
+                        This bat meets Nike’s international standards of excellence, with a superb natural finish.</p>
                     <button className='btn-live'>Live demo</button>
                 </div>
             </div>

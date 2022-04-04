@@ -1,14 +1,17 @@
-
+import AreaCharts from '../AreaChaets/AreaCharts';
 import LineCharts from '../LineChart/LineChart';
+import PieCharts from '../PieCharts/PieCharts';
+import './DashBoard.css'
 
 
 const Dashboard = () => {
 
 
     return (
-        <div>
+        <div className='dashboard-container'>
             <LineCharts></LineCharts>
-            <h1>DashBoard</h1>
+            <PieCharts></PieCharts>
+            <AreaCharts></AreaCharts>
         </div>
     );
 };

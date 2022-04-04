@@ -1,13 +1,9 @@
-import React, { useEffect, useState } from 'react';
-import { Line, LineChart, Pie, PieChart, XAxis, YAxis } from 'recharts';
+import { Line, LineChart, XAxis, YAxis } from 'recharts';
+import useData from '../../hooks/useData/useData';
 
 const LineCharts = () => {
-    const [data, setData] = useState([]);
-    useEffect(() => {
-        fetch('/data.json')
-            .then(res => res.json())
-            .then(data => setData(data))
-    }, [])
+    const [data] = useData([]);
+
     return (
 
         <div className="">
@@ -17,10 +13,7 @@ const LineCharts = () => {
                 <YAxis dataKey={'sell'} />
 
             </LineChart>
-            <PieChart width={730} height={250}>
-                <Pie data={data} dataKey={'investment'} cx="50%" cy="50%" outerRadius={50} fill="#8884d8" />
-                <Pie data={data} dataKey={"revenue"} cx="50%" cy="50%" innerRadius={60} outerRadius={80} fill="#82ca9d" label />
-            </PieChart>
+
         </div>
 
 
