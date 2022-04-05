@@ -2,42 +2,42 @@
     {
         "id": 1,
         "name": "Tamim Iqbal",
-        "comment": "comment",
+        "comment": "'Nice One, It takes me confident to bat'",
         "rating": 4,
         "image": "image/tamim.jpg"
     },
     {
         "id": 2,
         "name": "Steven Smith",
-        "comment": "comment",
+        "comment": "'Well Balanced to play'",
         "rating": 4.5,
         "image": "image/smith.jpg"
     },
     {
         "id": 3,
         "name": "Virat Kholi",
-        "comment": "comment",
+        "comment": "'It's shape's is awesome'",
         "rating": 5,
         "image": "image/vk18.jpg"
     },
     {
         "id": 4,
         "name": "Sakib al Hasan",
-        "comment": "comment",
+        "comment": "'Lite weight an perfect balance'",
         "rating": 5,
         "image": "image/sakib.jpg"
     },
     {
         "id": 5,
         "name": "David Warner",
-        "comment": "comment",
+        "comment": "'It's cool to sweet hit'",
         "rating": 5,
         "image": "image/warner.png"
     },
     {
         "id": 6,
         "name": "Baber Azam",
-        "comment": "comment",
+        "comment": "'well balanced for pinch-hit'",
         "rating": 5,
         "image": "image/Babar-Azam-2.jpg"
     }

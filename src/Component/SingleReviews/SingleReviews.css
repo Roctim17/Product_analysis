@@ -10,6 +10,21 @@
     align-items: center;
 }
 
+.SingleReviews-container h3 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.SingleReviews-container p {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.SingleReviews-container h5 {
+    font-weight: bold;
+    font-style: inherit;
+}
+
 @media only screen and (max-width:688px) {
     .SingleReviews-container {
         flex-direction: column;

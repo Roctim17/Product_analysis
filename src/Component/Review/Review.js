@@ -7,7 +7,7 @@ import './Review.css'
 const Review = () => {
     const [reviews] = useReview();
     return (
-        <div>
+        <div className='review-container'>
             <h1>Total Review :{reviews.length}</h1>
             <div className="review-area">
                 {

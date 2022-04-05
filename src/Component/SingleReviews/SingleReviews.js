@@ -11,7 +11,7 @@ const SingleReviews = ({ review }) => {
             <div className="SingleReviews-text">
                 <h3>{name}</h3>
                 <p>{comment}</p>
-                <h5>{rating}</h5>
+                <h5>Rating : {rating} out of 5</h5>
             </div>
 
 

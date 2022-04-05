@@ -9,7 +9,17 @@
 
 }
 
+.img-404 img {
+    margin: auto;
+}
+
 .btn-404 a {
     color: #fff;
     text-decoration: none;
+}
+
+@media only screen and (max-width:688px) {
+    .btn-404 {
+        width: 50%;
+    }
 }

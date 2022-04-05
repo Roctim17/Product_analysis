@@ -4,6 +4,12 @@
     grid-gap: 50px 5px;
 }
 
+.review-container h1 {
+    font-weight: bold;
+    font-size: 35px;
+    padding: 30px;
+}
+
 @media only screen and (max-width:688px) {
     .review-area {
         grid-template-columns: repeat(1, 1fr);
