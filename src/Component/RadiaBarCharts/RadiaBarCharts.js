@@ -16,7 +16,7 @@ const RadialBarCharts = () => {
                 endAngle={0}
             >
                 <RadialBar minAngle={15} label={{ fill: '#fff', position: 'insideStart' }} background clockWise={true} dataKey='sell' />
-                <Legend iconSize={10} width={50} height={200} layout='vertical' verticalAlign='middle' align="right" dataKey='investment' />
+                <Legend iconSize={10} width={140} height={280} layout='vertical' verticalAlign='middle' align="right" dataKey='investment' />
                 <Tooltip />
             </RadialBarChart>
         </div>
