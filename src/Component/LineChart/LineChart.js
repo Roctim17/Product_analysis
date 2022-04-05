@@ -8,6 +8,7 @@ const LineCharts = () => {
     return (
 
         <div className="line-chart">
+            <h1>Month vs Sell</h1>
             <LineChart width={500} height={300} data={data}>
                 <Line dataKey={'sell'} />
                 <XAxis dataKey={"month"} />

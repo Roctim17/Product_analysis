@@ -1,9 +1,21 @@
 .nav-header li {
     display: inline-block;
-    margin: 15px;
+    margin: 10px;
     font-weight: bold;
 
 
+}
+
+.nav-header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-header .nav-title {
+    font-size: 25px;
+    font-weight: bold;
+    width: 300px;
 }
 
 

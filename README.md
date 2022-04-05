@@ -10,3 +10,5 @@ Project Name : Product Analysis Website
 * Use Recharts 
 * Use Handel 404 page
 * Use CustomLink
+* Use Tailwind CSS framework
+* Use Vanilla CSS 

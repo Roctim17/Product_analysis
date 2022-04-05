@@ -9,6 +9,7 @@ const Header = () => {
         <div>
 
             <nav className='nav-header relative '>
+                <div className="nav-title"><h1>Product Review</h1></div>
                 <div onClick={() => setOpen(!open)} className="w-10 h-10 md:hidden">
                     {open ? <XIcon></XIcon> : <MenuIcon></MenuIcon>}
                 </div>

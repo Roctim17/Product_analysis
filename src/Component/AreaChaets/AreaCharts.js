@@ -6,6 +6,7 @@ const AreaCharts = () => {
     const [data] = useData([]);
     return (
         <div>
+            <h1>Investment vs Revenue</h1>
             <AreaChart width={500} height={300} data={data}
                 margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
                 <defs>

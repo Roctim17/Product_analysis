@@ -6,6 +6,7 @@ const RadialBarCharts = () => {
     const [data] = useData([]);
     return (
         <div>
+            <h1>Sell</h1>
             <RadialBarChart
                 width={500}
                 height={300}
