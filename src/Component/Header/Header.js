@@ -7,16 +7,19 @@ const Header = () => {
     const [open, setOpen] = useState(false);
     return (
         <div>
-            <div onClick={() => setOpen(!open)} className="w-6 h-6 ">
-                {open ? <XIcon></XIcon> : <MenuIcon></MenuIcon>}
-            </div>
-            <nav className='nav-header'>
 
-                <h1><CustomLink to="/" >Home</CustomLink></h1>
-                <h1><CustomLink to="/review" >Review</CustomLink></h1>
-                <h1><CustomLink to="/dashboard" >DashBoard</CustomLink></h1>
-                <h1><CustomLink to="/blog" >Blogs</CustomLink></h1>
-                <h1><CustomLink to="/about" >About</CustomLink></h1>
+            <nav className='nav-header relative '>
+                <div onClick={() => setOpen(!open)} className="w-10 h-10 md:hidden">
+                    {open ? <XIcon></XIcon> : <MenuIcon></MenuIcon>}
+                </div>
+                <ul className={` justify-center absolute md:static  w-full duration-500 ${open ? 'top-8' : 'top-[-190px]'}`}>
+                    <li><CustomLink to="/" >Home</CustomLink></li>
+                    <li><CustomLink to="/review" >Review</CustomLink></li>
+                    <li><CustomLink to="/dashboard" >DashBoard</CustomLink></li>
+                    <li><CustomLink to="/blog" >Blogs</CustomLink></li>
+                    <li><CustomLink to="/about" >About</CustomLink></li>
+                </ul>
+
             </nav>
 
 

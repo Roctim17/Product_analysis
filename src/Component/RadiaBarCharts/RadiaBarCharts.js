@@ -7,8 +7,8 @@ const RadialBarCharts = () => {
     return (
         <div>
             <RadialBarChart
-                width={650}
-                height={350}
+                width={500}
+                height={300}
                 innerRadius="10%"
                 outerRadius="80%"
                 data={data}

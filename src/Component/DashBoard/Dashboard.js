@@ -9,11 +9,15 @@ const Dashboard = () => {
 
 
     return (
-        <div className='dashboard-container'>
-            <LineCharts></LineCharts>
-            <PieCharts></PieCharts>
-            <AreaCharts></AreaCharts>
-            <RadialBarCharts></RadialBarCharts>
+        <div className="dashboard">
+            <h1>Rechart</h1>
+            <div className='dashboard-container'>
+
+                <LineCharts></LineCharts>
+                <PieCharts></PieCharts>
+                <AreaCharts></AreaCharts>
+                <RadialBarCharts></RadialBarCharts>
+            </div>
         </div>
     );
 };
